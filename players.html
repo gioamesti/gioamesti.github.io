@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manchester United - Famous Players</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+    <img src="media/MostFamousUnitedPlayers.jpg" class="Players" alt="Manchester United Players">
+    <h1>Famous Manchester United Players</h1>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="players.html">Famous Players</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Icons of the Club</h2>
+
+    
+    <div class="player-gallery">
+        <img src="media/Rooney.png" alt="Wayne Rooney">
+        <img src="media/DeGea.png" alt="David De Gea">
+        <img src="media/Beckham.jpg" alt="David Beckham">
+        <img src="media/Ronaldo.png" alt="Cristiano Ronaldo">
+    </div>
+
+    <h2>Fan Interaction Form</h2>
+    <p>Select your favorite Manchester United player and your favorite era!</p>
+
+    <form id="fanForm">
+
+        
+        <label for="fanName">Your Name:</label>
+        <input type="text" id="fanName" name="fanName" placeholder="Enter your name"><br><br>
+
+        
+        <h3>Select Your Favorite Player:</h3>
+
+        <label>
+            <input type="checkbox" name="player" value="Wayne Rooney">
+            Wayne Rooney
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="player" value="David De Gea">
+            David De Gea
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="player" value="David Beckham">
+            David Beckham
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="player" value="Cristiano Ronaldo">
+            Cristiano Ronaldo
+        </label><br><br>
+
+        
+        <h3>Select Your Favorite Era:</h3>
+
+        <label>
+            <input type="radio" name="era" value="Sir Alex Ferguson Era">
+            Sir Alex Ferguson Era
+        </label><br>
+
+        <label>
+            <input type="radio" name="era" value="Busby Babes Era">
+            Busby Babes Era
+        </label><br>
+
+        <label>
+            <input type="radio" name="era" value="Modern Era">
+            Modern Era
+        </label><br><br>
+
+        
+        <button type="reset">Reset</button>
+
+        
+        <button type="submit" onclick="submitForm(event)">Submit</button>
+
+    </form>
+
+    
+    <h2 id="resultBox"></h2>
+
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+   
